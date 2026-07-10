@@ -1,0 +1,43 @@
+.env
+node_modules/
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Environment variables (Included per user request)
+# .env
+# .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Replit files (AI-generated indicators)
+.replit
+.replit.nix
+replit.nix
+.local/
+.config/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.db
+*.sqlite
+
+# Build
+build/
+.turbo
+.vercel
